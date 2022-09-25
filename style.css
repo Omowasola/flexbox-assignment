@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+
+  { padding:0;
+   margin:0;
+   box-sizing:border-box; 
+}
+body{
+   font-family: 'Lexand Deca',sans-serif;
+   color: hsla(0, 14%, 83%, 0.75); 
+   background-color: rgb(245, 237, 237)
+}
+
+main{
+   display: flex;
+   height: 600px;
+   align-items: center;
+  justify-content: center;
+  
+
+}
+div{
+   width: 20vw;
+   height: 60vh;
+   padding: 35px;
+   text-align: center;
+   /* box-sizing: border-box; */
+  
+   
+}
+h2{
+   font-family: 'Big Shoulders Display', cursive;
+   text-transform: uppercase;
+   margin-top: 17px;
+   margin-bottom: 20px;
+   text-align: left;
+   font-size: 25px;
+}
+p{
+   font-size: 16px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   font-family: 'Lexand Deca',sans-serif;
+   text-align: left;
+   letter-spacing: 2px;
+   
+
+}
+img{
+   margin-bottom: 10px;
+}
+button{
+    padding: 8px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50px;
+    border: 0px  rgb(250, 249, 249);
+    cursor: pointer;
+    margin-top: 60px;
+    width: 120px;
+
+}
+.container1{
+   background-color: hsl(31, 77%, 52%);
+   text-align: center;
+   letter-spacing: 0.5px;
+   border-radius: 10px 0px 0px 10px;
+}
+  
+.container2{
+background-color: hsl(184, 100%, 22%);
+/* letter-spacing: 1px; */
+
+ 
+}
+.container3{
+background-color: hsl(179, 100%, 22%);
+border-radius: 0 10px 10px 0;
+/* letter-spacing: 1px; */
+}
+.container1 button{
+   color: hsl(31, 77%, 52%);
+   
+}
+.container2 button{
+   color: hsl(184, 100%, 22%);
+}
+.container3 button{
+   color: hsl(179, 100%, 22%);
+}
+.container1 button:hover{
+   background-color: hsl(31, 77%, 52%);
+   color: hsla(0, 14%, 83%, 0.75);
+   border: 2px solid hsla(0, 14%, 83%, 0.75);
+   transition: 1s ease;
+
+}
+.container2 button:hover{
+   background-color: hsl(184, 100%, 22%);
+   color: hsla(0, 14%, 83%, 0.75);
+   border: 2px solid hsla(0, 14%, 83%, 0.75);
+   transition: 1s ease;
+
+}
+.container3 button:hover{
+   background-color: hsl(179, 100%, 22%);
+   color: hsla(0, 14%, 83%, 0.75);
+   border: 2px solid hsla(0, 14%, 83%, 0.75);
+   transition: 1s ease;
+
+@media (max-width:768px){
+   main{
+      flex-direction: column;
+      margin: 30px 0px;
+      height: auto;
+   }
+}
+
+@media (max-height: 600px){
+   div{
+      width: 80vw;
+      height: auto;
+   }
+}
+
+
+
+
+ 
