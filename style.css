@@ -118,7 +118,7 @@ border-radius: 0 10px 10px 0;
 @media screen and (max-height: 700px){
    main{
      /* display: flex; */
-     flex-direction: column;
+     flex-direction: row;
      align-items: center;
      height: 100vh;
      width: 90%;
