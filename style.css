@@ -107,7 +107,7 @@ border-radius: 0 10px 10px 0;
    border: 2px solid hsla(0, 14%, 83%, 0.75);
    transition: 1s ease;
 
-@media (max-width:768px){
+@media (max-width:800px){
    main{
       flex-direction: column;
       margin: 30px 0px;
@@ -115,9 +115,16 @@ border-radius: 0 10px 10px 0;
    }
 }
 
-@media (max-height: 600px){
+@media (max-height: 700px){
    div{
       width: 80vw;
+      height: auto;
+      flex-direction: column;
+      height: fit-content;
+   }
+   main{
+      flex-direction: column;
+      margin: 30px 0px;
       height: auto;
    }
 }
